@@ -6,24 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'NgServerUdemy';
-  serverElements = [];
-  newServerName = '';
-  newServerContent = '';
-  servers:any= '';
 
-  onAddServer() {
-    this.servers.push("Another Servers!");
-    /*
-    this.serverElements.push({
-      type: 'server',
-      name: this.newServerName,
-      content: this.newServerContent
-    });*/
-  }
-
-  onAddBlueprint(id:number) {
-    const position=id+1;
-    this.servers.splice(position,1);
-  }
 }
