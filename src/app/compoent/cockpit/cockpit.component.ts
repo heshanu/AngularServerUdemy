@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cockpit.component.css'],
 })
 export class CockpitComponent implements OnInit {
-  constructor() {}
-  title = 'NgServerUdemy';
   serverElements: any[] = [];
+  constructor() {}
+
   newServerName: any = '';
   newServerContent: any = '';
   servers: any = '';
